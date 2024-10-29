@@ -1,0 +1,22 @@
+#btn{
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: var(--color-grey-700, #333);
+    border: none;
+    color: #fff;
+    width: 304px;
+    height: 45px;
+    font-size: var(--font-sizetext-preset-2);
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+}
+
+#btn:hover {
+    background: red;
+    color: black;
+  }
